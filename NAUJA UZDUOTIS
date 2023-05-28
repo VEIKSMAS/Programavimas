@@ -1,0 +1,10 @@
+using System;
+namespace cshop_programa
+  {
+    class Program
+    {
+      static void Main (string)
+      {
+      Console.WriteLine("Rytas");
+      Console.ReadKey();
+      Mano vardas Rytas
