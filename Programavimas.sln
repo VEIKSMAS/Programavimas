@@ -1,20 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Blend for Visual Studio Version 17
+# Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kintamieji", "Kintamieji", "{91F8549F-8733-4C62-A80F-AEB5A5C3D5EE}"
-	ProjectSection(SolutionItems) = preProject
-		NAUJA UZDUOTIS = NAUJA UZDUOTIS
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotys", "Uzduotys\Uzduotys.csproj", "{E5FAE31A-E69E-4A4D-848B-C285CCD6E0E6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Isvedimas", "Isvedimas", "{1E4FD6A5-4B45-4E05-8D02-E9A406F7560E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Isvedimas", "2.Isvedimas", "{1E4FD6A5-4B45-4E05-8D02-E9A406F7560E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demoisvedimas", "Demoisvedimas\Demoisvedimas.csproj", "{10FF13BB-C813-4D9F-85A5-3BD359CC4DAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoKintakieji", "DemoKintakieji\DemoKintakieji.csproj", "{9D52F91D-41CA-4877-ABDE-4AECE915ED91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoK", "DemoK\DemoK.csproj", "{9EE668A7-F6F6-4917-BEA1-9DBEFBF4778D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoIsvedimas", "DemoIsvedimas\DemoIsvedimas.csproj", "{99CA0578-E30B-4FEA-9BDF-B329B3E75F9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,14 +23,14 @@ Global
 		{E5FAE31A-E69E-4A4D-848B-C285CCD6E0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5FAE31A-E69E-4A4D-848B-C285CCD6E0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5FAE31A-E69E-4A4D-848B-C285CCD6E0E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10FF13BB-C813-4D9F-85A5-3BD359CC4DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10FF13BB-C813-4D9F-85A5-3BD359CC4DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10FF13BB-C813-4D9F-85A5-3BD359CC4DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10FF13BB-C813-4D9F-85A5-3BD359CC4DAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9EE668A7-F6F6-4917-BEA1-9DBEFBF4778D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9EE668A7-F6F6-4917-BEA1-9DBEFBF4778D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9EE668A7-F6F6-4917-BEA1-9DBEFBF4778D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9EE668A7-F6F6-4917-BEA1-9DBEFBF4778D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D52F91D-41CA-4877-ABDE-4AECE915ED91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D52F91D-41CA-4877-ABDE-4AECE915ED91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D52F91D-41CA-4877-ABDE-4AECE915ED91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D52F91D-41CA-4877-ABDE-4AECE915ED91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CA0578-E30B-4FEA-9BDF-B329B3E75F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CA0578-E30B-4FEA-9BDF-B329B3E75F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CA0578-E30B-4FEA-9BDF-B329B3E75F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CA0578-E30B-4FEA-9BDF-B329B3E75F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,7 +38,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E5FAE31A-E69E-4A4D-848B-C285CCD6E0E6} = {91F8549F-8733-4C62-A80F-AEB5A5C3D5EE}
 		{1E4FD6A5-4B45-4E05-8D02-E9A406F7560E} = {91F8549F-8733-4C62-A80F-AEB5A5C3D5EE}
-		{10FF13BB-C813-4D9F-85A5-3BD359CC4DAC} = {1E4FD6A5-4B45-4E05-8D02-E9A406F7560E}
+		{9D52F91D-41CA-4877-ABDE-4AECE915ED91} = {91F8549F-8733-4C62-A80F-AEB5A5C3D5EE}
+		{99CA0578-E30B-4FEA-9BDF-B329B3E75F9F} = {1E4FD6A5-4B45-4E05-8D02-E9A406F7560E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2BBF98AF-0D14-4147-B67C-63006C1B25AA}
