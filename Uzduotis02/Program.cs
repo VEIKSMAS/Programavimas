@@ -6,6 +6,11 @@
 
 using System;
 
+
+
+
+
+
 namespace Uzduotis02
 {
     internal class Program
@@ -13,8 +18,12 @@ namespace Uzduotis02
         static void Main(string[] args)
 
         {
+           
+            
             Console.WriteLine("Mano vardas\nRita");
         }
+    }
+}
 
 
             
