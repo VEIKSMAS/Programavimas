@@ -17,7 +17,7 @@ namespace Uzduotis_5
             */
               int sudetis = 3 + 3;
               Console.WriteLine(sudetis);
-…             Console.WriteLine(3-3);
+             Console.WriteLine(3-3);
               Console.WriteLine(3*3);
               Console.WriteLine();
 

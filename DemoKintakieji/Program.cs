@@ -9,18 +9,18 @@ namespace DemoKintakieji
 {
     internal class Program
     {
-        static void Main(string[] args);
+        static void Main(string[] args)
         {
-        Console.WriteLine("Rytas");
+            Console.WriteLine("Rytas");
 
         
             //skaitiniu reiksmiu kintamieji
 
-             int skaiciusSveikasis = 7;
+            int skaiciusSveikasis = 7;
             double skaiciusdouble = 7.7;
-        float skaiciusFloat = 7.7f;
+            float skaiciusFloat = 7.7f;
 
-           skaiciusSveikasis = 10;
+            skaiciusSveikasis = 10;
 
             // Tekstines  reiksmes
 
@@ -35,7 +35,7 @@ namespace DemoKintakieji
         bool arsninga = false;
 
         Console.WriteLine(vardas);
-            Console.WriteLine (skaiciusSveikasis);
+        Console.WriteLine (skaiciusSveikasis);
 
 
 

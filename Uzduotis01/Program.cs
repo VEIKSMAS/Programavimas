@@ -49,8 +49,8 @@ namespace Uzduotis01
 
             */
 
-             int skaicius = -25;
-             Console.WriteLine("Mano skaicius:" + skaicius + ", mano skaicius: " + 25  +  ", + 25 + ", + 25 + ", + 25 + ",+ 25 +";,"
+             skaicius = -25;
+            Console.WriteLine("Mano skaicius:" + skaicius + ", mano skaicius: " + 25 + ", + 25 + ", +25 + ", + 25 + ", +25 );
         }
     }
 }

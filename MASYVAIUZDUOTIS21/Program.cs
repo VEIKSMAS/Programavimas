@@ -30,10 +30,10 @@ namespace MASYVAIUZDUOTIS21
             Console.WriteLine(markiuMasyvasIsKonkreciuReiksmiu[2]);
 
             int[] pazymiuMasyvas = new int[4];
-            int[] pazymis0 = 8;
-            int[] pazymis1 = 7;
-            int[] pazymis2 = 4;
-            int[] pazymis3 = 3;
+            pazymiuMasyvas[0] = 8;
+            pazymiuMasyvas[1] = 7;
+            pazymiuMasyvas[2] = 4;
+            pazymiuMasyvas[3] = 3;
             int[] pazymiuMasyvasIsKonkreciuReiksmiu = { 8, 7, 4, 3 };
             int[] pazymiuMasyvasKonkretausDydzio = new int[4];
             Console.WriteLine(pazymiuMasyvasIsKonkreciuReiksmiu[3]);

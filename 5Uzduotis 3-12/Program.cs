@@ -23,7 +23,7 @@ namespace _5Uzduotis_3_12
             Console.WriteLine(4 * 3);
             Console.WriteLine();
 
-            int skaicius = 7*7;
+            int skaicius = 7 * 7;
             Console.WriteLine(skaicius);
             Console.WriteLine();
 
@@ -31,7 +31,7 @@ namespace _5Uzduotis_3_12
              * Išveskite į ekraną šio skaičiaus skaitmenų sandaugą.
              */
 
-            int skaicius = 25;
+            skaicius = 25;
             Console.WriteLine(5 * 5);
             Console.WriteLine();
 
@@ -40,31 +40,31 @@ namespace _5Uzduotis_3_12
              * Liepkite vartotojui įvesti savo vardą ir amžių.
              * Į ekraną išveskite: “Jūsų vardas { vardas}, o amžius { amžius}.”
              */
-                 TRYS-  BANDYMAI
+            //TRYS - BANDYMAI
 
 
             Console.WriteLine("Asta");
             var vardas = Console.ReadLine();
             Console.WriteLine("25");
-            var skaicius = Convert.ToInt32(Console.ReadLine());
-            Console.ReadLine("Asta + 25");
+            skaicius = Convert.ToInt32(Console.ReadLine());
+            Console.ReadLine();
 
             //
 
 
-            string vardas = string.Empty;
+            vardas = string.Empty;
             int amzius;
             Console.WriteLine("Asta:");
             vardas = Console.ReadLine();
             Console.WriteLine("25:");
-            amzius = Console.ReadLine();
+            //amzius = Console.ReadLine();
             amzius = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Asta,25", vardas, amzius);
 
             //
 
-            string vardas = "Asta";
-            int amzius = 20;
+            vardas = "Asta";
+            amzius = 20;
             Console.WriteLine(vardas);
             Console.WriteLine(amzius);
             Console.WriteLine("Mano vardas:Asta,mano amzius:20");
@@ -99,11 +99,36 @@ namespace _5Uzduotis_3_12
             Console.Write("Iveskite trecia skaiciu:9");
             var trecias = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("{1} + {8} + {9} = {3}", pirmas, antras, trecias, pirmas + antras + trecias);
+            Console.WriteLine("{0} + {1} + {2} = {3}", pirmas, antras, trecias, pirmas + antras + trecias);
+
+
+             /* UZDUOTIS 8
+             * Liepkite vartotojui įvesti bet kokį sveikąjį skaičių.
+             * Išveskite šio skaičiaus daugybos lentelę nuo 1 iki 5. 
+             * Pvz.:
+             * 2 * 1 = 2
+             * 2 * 5 = 10
+             */
+
+
+            /* Liepkite vartotojui įvesti tris skaičius. 
+             * Į ekraną išveskite šiuos skaičius ir jų vidurkį. 
+             * Pvz.:
+             * Įvestų skaičių 4, 5, 8 vidurkis: 5,7.
+             */
+
+
+            /* Liepkite įvesti tris skaičius. 
+             * Išveskite įvestus skaičius, 
+             * jų kvadratus, juos pakeltus trečiuoju laipsniu, 
+             * taip pat tuos skaičius, padalintus iš dviejų.
+             */
 
 
 
-
-        }
+             }
     }
 }
+
+
+

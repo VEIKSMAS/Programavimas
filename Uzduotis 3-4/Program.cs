@@ -1,6 +1,5 @@
 ﻿
 
-using
 using System;
 
 namespace Uzduotis_3_4
@@ -28,5 +27,4 @@ namespace Uzduotis_3_4
             Console.WriteLine("Automobilio {Mazda}marke {Lupo} modelis ({2000} metai {12000} rida");
         }
     }
-}
 }

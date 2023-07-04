@@ -48,11 +48,11 @@ namespace UZDUOTIS_8
             var b = 5;
             var c = 7;
             Console.WriteLine(3);
-            var pirmas = Console.ReadLine();
+            var pirmasStr = Console.ReadLine();
             Console.WriteLine(5);
-            var antras = Console.ReadLine();
+            var antrasStr = Console.ReadLine();
             Console.WriteLine(7);
-            var trecias = Console.ReadLine();
+            var treciasStr = Console.ReadLine();
             Console.WriteLine(3 * 3);
 
             Console.WriteLine(5 * 5);
